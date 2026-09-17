@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marjon Musta | Student, Writer & Creative Portfolio</title>
+    <meta name="description" content="Official personal portfolio of Marjon Musta — Ninth-grade student, author, editor, public speaker, and digital designer from Tirana, Albania.">
+    <meta property="og:title" content="Marjon Musta | Writer, Student & Creative Portfolio">
+    <meta property="og:description" content="Personal literary, academic, and digital portfolio of Marjon Musta.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Subtle Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Subtle Dynamic Particle Background -->
+    <div id="particle-canvas-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo">M<span>.</span>MUSTA</a>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#books" class="nav-link">Books</a></li>
+                <li><a href="#writing" class="nav-link">Writing</a></li>
+                <li><a href="#academic" class="nav-link">Academic</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#quotes" class="nav-link">Quotes</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="section-label-gold">TIRANA, ALBANIA</span>
+            <h1 class="hero-title">MARJON MUSTA</h1>
+            <p class="hero-subtitle">Student • Writer • Author • Editor • Digital Designer</p>
+            <p class="hero-lead">"Writing, language, design, and ideas are the spaces where I continue to learn, create, and build."</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-gold">EXPLORE MY WORK</a>
+                <a href="#achievements" class="btn btn-outline">VIEW ACHIEVEMENTS</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL TO DISCOVER</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Personal Introduction Section -->
+    <section id="about" class="section-padding bg-darker">
+        <div class="container">
+            <div class="grid grid-2 align-center">
+                <div class="about-portrait-wrapper">
+                    <div class="editorial-frame">
+                        <div class="portrait-placeholder">
+                            <i class="fa-solid fa-feather-pointed portrait-icon"></i>
+                            <span class="portrait-caption">MARJON MUSTA</span>
+                            <span class="portrait-sub">PORTFOLIO ARCHIVE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-label-gold">IDENTITY & PERSPECTIVE</span>
+                    <h2 class="section-title">ABOUT MARJON</h2>
+                    <p class="editorial-paragraph">Marjon Musta is a ninth-grade student from Tirana, Albania[cite: 2], exploring the intersections of creative writing, language acquisition, public speaking, digital design, theatrical performance, and editorial curation[cite: 2].</p>
+                    <p class="editorial-paragraph">Dedicated to academic discipline and creative storytelling, Marjon actively engages in international public speaking forums, digital library organization, magazine publishing, and long-form fiction writing[cite: 2].</p>
+                    
+                    <div class="timeline-identity">
+                        <div class="identity-item">
+                            <span class="identity-year">2011</span>
+                            <span class="identity-desc">Born in Tirana, Albania[cite: 2]</span>
+                        </div>
+                        <div class="identity-item">
+                            <span class="identity-year">CURRENT</span>
+                            <span class="identity-desc">Ninth-Grade Student at Shkolla 9-Vjeçare "Pal Ëngjëlli"[cite: 2]</span>
+                        </div>
+                        <div class="identity-item">
+                            <span class="identity-year">2026</span>
+                            <span class="identity-desc">WeVoi Reload International Bronze Medalist & Official Student Ambassador[cite: 1, 2, 3]</span>
+                        </div>
+                        <div class="identity-item">
+                            <span class="identity-year">ONGOING</span>
+                            <span class="identity-desc">Fiction writing, editorial design, public speaking, and digital systems development[cite: 2]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section id="books" class="section-padding bg-black">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">LITERARY PROJECTS</span>
+                <h2 class="section-title">MAJOR WORKS IN DEVELOPMENT</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <!-- Spotlight: The Hearth Beneath Blackwood -->
+            <div class="book-spotlight-card">
+                <div class="grid grid-2 align-center">
+                    <div class="book-cover-container">
+                        <div class="book-cover-gothic">
+                            <div class="cover-inner">
+                                <span class="cover-author">MARJON MUSTA</span>
+                                <h3 class="cover-title">THE HEARTH BENEATH BLACKWOOD</h3>
+                                <div class="cover-divider"></div>
+                                <span class="cover-tag">A GOTHIC HORROR NOVEL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-details">
+                        <span class="badge-gothic">FEATURED NOVEL PROJECT</span>
+                        <h3 class="book-title-main">The Hearth Beneath Blackwood</h3>
+                        <p class="book-tagline">"Some fires warm a room. Others remember who stood beside them."</p>
+                        <ul class="book-meta-list">
+                            <li><strong>Genre:</strong> Gothic Horror / Atmospheric Fiction</li>
+                            <li><strong>Setting:</strong> Vance Manor, Blackwood Hollow, Massachusetts</li>
+                            <li><strong>Themes:</strong> Ancestral memory, blood magic, isolation, family secrets, the 1692 witch-trial legacy</li>
+                            <li><strong>Status:</strong> Manuscript in active development</li>
+                        </ul>
+                        <p class="editorial-paragraph">Set in an autumn-shrouded Massachusetts manor, the story explores the slow escalation from domestic comfort into horror. Vance Manor operates not merely as a backdrop, but as an active, remembering character.</p>
+                        <button class="btn btn-gold" id="btn-open-blackwood">READ ABOUT THE PROJECT</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gothic Deep-Dive Expansion (Initially Hidden / Expanded via Modal) -->
+            <div class="other-works-grid">
+                <div class="work-card">
+                    <span class="work-type">PSYCHOLOGICAL THRILLER</span>
+                    <h4>Broken Shards of Night</h4>
+                    <p>A thriller manuscript focused on memory, guilt, and psychological tension.</p>
+                    <span class="work-status">Manuscript Development</span>
+                </div>
+                <div class="work-card">
+                    <span class="work-type">DRAMATIC FICTION</span>
+                    <h4>A Boy in Pieces</h4>
+                    <p>An exploration of youth, identity, personal resilience, and internal growth.</p>
+                    <span class="work-status">Literary Project</span>
+                </div>
+                <div class="work-card">
+                    <span class="work-type">ROMANCE / DRAMA</span>
+                    <h4>When Love Heals</h4>
+                    <p>A narrative examining empathy, emotional recovery, and human connection.</p>
+                    <span class="work-status">Creative Writing Manuscript</span>
+                </div>
+                <div class="work-card">
+                    <span class="work-type">FANTASY</span>
+                    <h4>Untitled Mana Project</h4>
+                    <p>A fantasy narrative centering on Kael and the mysteries surrounding Prime Mana.</p>
+                    <span class="work-status">Concept & Worldbuilding</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Literary Library -->
+    <section class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">ARCHIVAL FRAGMENTS</span>
+                <h2 class="section-title">INTERACTIVE LITERARY LIBRARY</h2>
+                <div class="gold-line center"></div>
+            </div>
+            <div class="library-tabs-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="tab-1">FRAGMENT I</button>
+                    <button class="tab-btn" data-tab="tab-2">FRAGMENT II</button>
+                    <button class="tab-btn" data-tab="tab-3">FRAGMENT III</button>
+                    <button class="tab-btn" data-tab="tab-4">AUTHOR NOTE</button>
+                </div>
+                <div class="tab-content-panel">
+                    <div id="tab-1" class="tab-pane active">
+                        <p class="literary-quote">"Blackwood Hollow never felt silent. It felt like it was listening—straining against the quiet to hear which name the wind would carry first."</p>
+                        <span class="pane-meta">— Atmospheric Fragment, <em>The Hearth Beneath Blackwood</em></span>
+                    </div>
+                    <div id="tab-2" class="tab-pane">
+                        <p class="literary-quote">"Memory is not a record of what happened; it is an arrangement of shadows we agree to live beside until the light shifts."</p>
+                        <span class="pane-meta">— Prose Note, Creative Archive</span>
+                    </div>
+                    <div id="tab-3" class="tab-pane">
+                        <p class="literary-quote">"The house remembered things I had never lived. Every floorboard had a rhythm, and every hearth held ash that belonged to an earlier fire."</p>
+                        <span class="pane-meta">— Manuscript Excerpt Excerpt</span>
+                    </div>
+                    <div id="tab-4" class="tab-pane">
+                        <p class="literary-quote">"Writing gothic fiction requires a commitment to mood over speed. The horror does not come from sudden noise, but from the realization that quiet has been holding something heavy all along."</p>
+                        <span class="pane-meta">— Author Perspective, Marjon Musta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing Portfolio Section -->
+    <section id="writing" class="section-padding bg-black">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">CREATIVE & EDITORIAL WORKS</span>
+                <h2 class="section-title">WRITING PORTFOLIO</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="fiction">FICTION</button>
+                <button class="filter-btn" data-filter="gothic">GOTHIC HORROR</button>
+                <button class="filter-btn" data-filter="thriller">THRILLER</button>
+                <button class="filter-btn" data-filter="editorial">EDITORIAL</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-category="gothic fiction">
+                    <div class="card-inner">
+                        <span class="card-genre">GOTHIC HORROR</span>
+                        <h3>The Hearth Beneath Blackwood</h3>
+                        <p>Long-form fiction exploring Vance Manor, ancient bloodlines, and atmospheric horror.</p>
+                        <button class="btn-card-detail" data-title="The Hearth Beneath Blackwood" data-content="A comprehensive gothic horror manuscript exploring psychological dread, family legacy, and isolation in New England.">Read Overview</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="thriller fiction">
+                    <div class="card-inner">
+                        <span class="card-genre">PSYCHOLOGICAL THRILLER</span>
+                        <h3>Broken Shards of Night</h3>
+                        <p>Novella manuscript examining secrets, identity, and high-stakes tension.</p>
+                        <button class="btn-card-detail" data-title="Broken Shards of Night" data-content="Submitted for professional editorial assessment; focuses on narrative pacing, suspense, and character psychology.">Read Overview</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="editorial">
+                    <div class="card-inner">
+                        <span class="card-genre">EDITORIAL & MAGAZINE</span>
+                        <h3>Revista e Shkollës</h3>
+                        <p>Lead editorial curation, article formatting, and student publication structure[cite: 2].</p>
+                        <button class="btn-card-detail" data-title="Revista e Shkollës" data-content="Managed editorial curation, student writer submissions, and article formatting for official student publication[cite: 2].">Read Overview</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="fiction">
+                    <div class="card-inner">
+                        <span class="card-genre">DRAMATIC FICTION</span>
+                        <h3>A Boy in Pieces</h3>
+                        <p>Character-driven narrative exploring emotional resilience and coming-of-age.</p>
+                        <button class="btn-card-detail" data-title="A Boy in Pieces" data-content="An intimate look at self-discovery, identity reconstruction, and overcoming internal conflicts.">Read Overview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Profile Section -->
+    <section id="academic" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">SCHOLASTIC FOUNDATION</span>
+                <h2 class="section-title">ACADEMIC PROFILE</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="academic-info-box">
+                    <h3>INSTITUTIONAL DETAILS</h3>
+                    <ul class="academic-details-list">
+                        <li><i class="fa-solid fa-school gold-icon"></i> <strong>School:</strong> Shkolla 9-Vjeçare "Pal Ëngjëlli"[cite: 2]</li>
+                        <li><i class="fa-solid fa-location-dot gold-icon"></i> <strong>Location:</strong> Tirana, Albania[cite: 2]</li>
+                        <li><i class="fa-solid fa-graduation-cap gold-icon"></i> <strong>Current Status:</strong> Ninth-Grade Student[cite: 2]</li>
+                        <li><i class="fa-solid fa-calendar-check gold-icon"></i> <strong>Expected Completion:</strong> June 2027[cite: 2]</li>
+                    </ul>
+                </div>
+                <div class="academic-info-box">
+                    <h3>CORE ACADEMIC PILLARS</h3>
+                    <div class="pillars-grid">
+                        <div class="pillar-item"><i class="fa-solid fa-language"></i> Language & Writing[cite: 2]</div>
+                        <div class="pillar-item"><i class="fa-solid fa-comments"></i> Public Speaking[cite: 2, 3]</div>
+                        <div class="pillar-item"><i class="fa-solid fa-pen-nib"></i> Editorial Production[cite: 2]</div>
+                        <div class="pillar-item"><i class="fa-solid fa-laptop-code"></i> Digital Systems[cite: 2]</div>
+                        <div class="pillar-item"><i class="fa-solid fa-masks-theater"></i> Dramatic Arts[cite: 2]</div>
+                        <div class="pillar-item"><i class="fa-solid fa-users"></i> Student Leadership[cite: 2]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section-padding bg-black">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">VERIFIED HONOURS & ROLES</span>
+                <h2 class="section-title">ACHIEVEMENTS & CERTIFICATIONS</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-award"></i></div>
+                    <span class="achievement-date">23 MARCH 2026[cite: 1, 2]</span>
+                    <h4>WeVoi Reload Bronze Medal</h4>
+                    <p>Awarded Bronze Medal for outstanding achievement in the JuniorVoi age category in international public speaking[cite: 1, 2, 3].</p>
+                    <button class="btn-cert" data-cert="wevoi-medal">View Verification</button>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-user-shield"></i></div>
+                    <span class="achievement-date">2026[cite: 2]</span>
+                    <h4>WeVoi Student Ambassador</h4>
+                    <p>Official student ambassador driving community outreach, public speaking, and educational initiatives[cite: 2].</p>
+                    <button class="btn-cert" data-cert="wevoi-ambassador">View Verification</button>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+                    <span class="achievement-date">2026[cite: 2]</span>
+                    <h4>Librarika ILS Certification</h4>
+                    <p>Validated technical proficiency in digital library cataloging, metadata entry, and system operations[cite: 2].</p>
+                    <button class="btn-cert" data-cert="librarika">View Verification</button>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-globe"></i></div>
+                    <span class="achievement-date">2026[cite: 2]</span>
+                    <h4>HIPPO Olympiad Preliminary</h4>
+                    <p>Qualified through the preliminary round of the HIPPO International English Language Olympiad[cite: 2].</p>
+                    <button class="btn-cert" data-cert="hippo">View Verification</button>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-newspaper"></i></div>
+                    <span class="achievement-date">2026[cite: 2]</span>
+                    <h4>Editorial & Design Excellence</h4>
+                    <p>Certified Lead Editor & Designer for official publication "Revista e Shkollës"[cite: 2].</p>
+                    <button class="btn-cert" data-cert="revista">View Verification</button>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-theater-masks"></i></div>
+                    <span class="achievement-date">2026[cite: 2]</span>
+                    <h4>Dramatic Arts Commendation</h4>
+                    <p>Recognized for stage presence, live acting, and dramatic performance in school productions[cite: 2].</p>
+                    <button class="btn-cert" data-cert="dramatics">View Verification</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Achievement Timeline -->
+    <section class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">CHRONOLOGY</span>
+                <h2 class="section-title">ACHIEVEMENT TIMELINE</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-block">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">March 2026[cite: 1, 2]</span>
+                        <h3>WeVoi Reload 2026 Bronze Medal</h3>
+                        <p>Awarded international distinction in public speaking following competitive evaluation[cite: 1, 2, 3].</p>
+                    </div>
+                </div>
+                <div class="timeline-block">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">August 2026[cite: 2]</span>
+                        <h3>WeVoi Official Recommendation Letter</h3>
+                        <p>Received official committee endorsement highlighting research, argumentation, and leadership[cite: 2, 3].</p>
+                    </div>
+                </div>
+                <div class="timeline-block">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2026[cite: 2]</span>
+                        <h3>Lead Editor — Revista e Shkollës</h3>
+                        <p>Directed editorial composition, layout design, and digital publication[cite: 2].</p>
+                    </div>
+                </div>
+                <div class="timeline-block">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Ongoing[cite: 2]</span>
+                        <h3>Digital Systems & Library Archiving</h3>
+                        <p>Managing cataloging systems and developing personal digital archives[cite: 2].</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Public Speaking & Recommendation Highlight -->
+    <section class="section-padding bg-black">
+        <div class="container">
+            <div class="grid grid-2 align-center">
+                <div>
+                    <span class="section-label-gold">ORATORY & ADVOCACY</span>
+                    <h2 class="section-title">PUBLIC SPEAKING & LEADERSHIP</h2>
+                    <p class="editorial-paragraph">Through international public speaking platforms, Marjon focuses on structured argumentation, persuasive communication, and authentic delivery[cite: 2, 3].</p>
+                    <div class="quote-box-editorial">
+                        <p>"Marjon has demonstrated exceptional communication skills, confidence, critical thinking, and leadership... His speeches reflected thoughtful research, persuasive argumentation, and strong stage presence."</p>
+                        <span class="quote-author">— Gemma Parker, WeVoi Committee Recommendation[cite: 2, 3]</span>
+                    </div>
+                </div>
+                <div class="speaking-skills-box">
+                    <h3>ORATORY COMPETENCIES</h3>
+                    <ul class="styled-check-list">
+                        <li><i class="fa-solid fa-check gold-text"></i> Persuasive Argumentation & Research[cite: 2, 3]</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Stage Presence & Audience Engagement[cite: 2, 3]</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Peer Representation & Community Outreach[cite: 2]</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Cross-Cultural Dialogue & Youth Leadership[cite: 2]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial Design & Revista e Shkollës -->
+    <section class="section-padding bg-darker">
+        <div class="container">
+            <div class="grid grid-2 align-center">
+                <div class="magazine-mockup-wrapper">
+                    <div class="magazine-spread">
+                        <div class="spread-page left-page">
+                            <span class="mag-header">REVISTA E SHKOLLËS</span>
+                            <h4>EDITORIAL NOTE</h4>
+                            <p>Curation of student voices, academic articles, and creative prose[cite: 2].</p>
+                        </div>
+                        <div class="spread-page right-page">
+                            <span class="mag-header">ISSUE 2026[cite: 2]</span>
+                            <h4>DESIGN & LAYOUT</h4>
+                            <p>Digital formatting, Canva composition, and typography alignment[cite: 2].</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span class="section-label-gold">DIGITAL PUBLISHING</span>
+                    <h2 class="section-title">EDITORIAL & DESIGN WORK</h2>
+                    <p class="editorial-paragraph">As Lead Editor and Designer of <em>Revista e Shkollës</em>, Marjon oversaw the digital publication workflow from initial text collection to final visual layout[cite: 2].</p>
+                    <ul class="editorial-duties-list">
+                        <li><strong>Digital Layout:</strong> Canvas-based editorial layout design[cite: 2].</li>
+                        <li><strong>Curation:</strong> Structuring peer prose, articles, and literary content[cite: 2].</li>
+                        <li><strong>Metadata & Publishing:</strong> Article formatting and digital distribution preparation[cite: 2].</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dramatic Arts & Performing -->
+    <section class="section-padding bg-black">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">THEATRICAL EXPRESSION</span>
+                <h2 class="section-title">DRAMATIC ARTS</h2>
+                <div class="gold-line center"></div>
+            </div>
+            <div class="editorial-quote-center text-center">
+                <p>"Performance on stage is the physical realization of narrative structure—where timing, presence, and voice align to convey what written words can only suggest."[cite: 2]</p>
+                <div class="grid grid-3 mt-4">
+                    <div class="drama-card">
+                        <i class="fa-solid fa-masks-theater drama-icon"></i>
+                        <h4>Character Portrayal</h4>
+                        <p>Developing character depth, emotional resonance, and vocal control[cite: 2].</p>
+                    </div>
+                    <div class="drama-card">
+                        <i class="fa-solid fa-bullhorn drama-icon"></i>
+                        <h4>Stage Presence</h4>
+                        <p>Commanding audience engagement through deliberate movement and poise[cite: 2, 3].</p>
+                    </div>
+                    <div class="drama-card">
+                        <i class="fa-solid fa-users-line drama-icon"></i>
+                        <h4>Collaborative Acting</h4>
+                        <p>Engaging in ensemble theatrical productions and live school performances[cite: 2].</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">CAPABILITIES</span>
+                <h2 class="section-title">SKILLS & COMPETENCIES</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="grid grid-4">
+                <div class="skill-category-card">
+                    <h3>COMMUNICATION</h3>
+                    <ul>
+                        <li>Public Speaking[cite: 2, 3]</li>
+                        <li>Persuasive Writing[cite: 2, 3]</li>
+                        <li>Presentation[cite: 2, 3]</li>
+                        <li>Leadership[cite: 2, 3]</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3>CREATIVE</h3>
+                    <ul>
+                        <li>Creative Writing[cite: 2]</li>
+                        <li>Atmospheric Horror[cite: 2]</li>
+                        <li>Character Building[cite: 2]</li>
+                        <li>Dramatic Arts[cite: 2]</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3>DIGITAL</h3>
+                    <ul>
+                        <li>Canva Layout Design[cite: 2]</li>
+                        <li>GitHub Pages[cite: 2]</li>
+                        <li>Librarika ILS[cite: 2]</li>
+                        <li>Microsoft Office[cite: 2]</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3>ORGANIZATION</h3>
+                    <ul>
+                        <li>Editorial Production[cite: 2]</li>
+                        <li>Metadata Entry[cite: 2]</li>
+                        <li>Content Planning[cite: 2]</li>
+                        <li>Library Cataloging[cite: 2]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Language & Live Switcher Section -->
+    <section class="section-padding bg-black">
+        <div class="container text-center">
+            <span class="section-label-gold">BILINGUAL PROFICIENCY</span>
+            <h2 class="section-title">LANGUAGE & WRITING</h2>
+            <div class="gold-line center"></div>
+
+            <div class="lang-switcher-box">
+                <div class="lang-toggle-buttons">
+                    <button class="lang-btn active" id="btn-lang-en">ENGLISH (ADVANCED)</button>
+                    <button class="lang-btn" id="btn-lang-sq">ALBANIAN (NATIVE)</button>
+                </div>
+                <div class="lang-display-content">
+                    <p id="lang-text-display" class="lang-text">"Language is the primary instrument of thought and expression. Writing in English allows me to engage with international audiences, while Albanian grounds my personal and cultural perspective."[cite: 2]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">CREATIVE & TECHNICAL INITIATIVES</span>
+                <h2 class="section-title">FEATURED PROJECTS</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="project-card">
+                    <div class="project-meta">LITERARY PROJECT</div>
+                    <h3>The Hearth Beneath Blackwood</h3>
+                    <p>Gothic fiction novel exploring isolation, memory, and Massachusetts lore.</p>
+                    <span class="project-role">Role: Author & Worldbuilder</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-meta">DIGITAL PUBLICATION</div>
+                    <h3>Revista e Shkollës</h3>
+                    <p>Official school magazine compiled, formatted, and edited digitally[cite: 2].</p>
+                    <span class="project-role">Role: Lead Editor & Designer[cite: 2]</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-meta">DIGITAL SYSTEMS</div>
+                    <h3>Librarika Library Cataloging</h3>
+                    <p>Cataloging, metadata structuring, and digital collection management[cite: 2].</p>
+                    <span class="project-role">Role: Systems Manager[cite: 2]</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-black">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">ROLES & RESPONSIBILITIES</span>
+                <h2 class="section-title">VOLUNTEERING & COMMUNITY EXPERIENCE</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="exp-box">
+                    <span class="exp-date">2026[cite: 2]</span>
+                    <h3>WeVoi Student Ambassador</h3>
+                    <p class="exp-org">WeVoi Platform[cite: 2]</p>
+                    <p>Represented WeVoi within the student community, driving peer engagement, organizing communication initiatives, and advocating for youth public speaking[cite: 2].</p>
+                </div>
+                <div class="exp-box">
+                    <span class="exp-date">2026[cite: 2]</span>
+                    <h3>Editor & Creative Designer (Volunteer)</h3>
+                    <p class="exp-org">Revista e Shkollës[cite: 2]</p>
+                    <p>Volunteer-edited and designed a student publication highlighting student literature, academic projects, and creative writing[cite: 2].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quotes" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">PERSONAL REFLECTIONS</span>
+                <h2 class="section-title">ORIGINAL QUOTES</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="quote-card-item">
+                    <p>"I write because some thoughts become clearer only after they become words."</p>
+                </div>
+                <div class="quote-card-item">
+                    <p>"Learning a language changes more than the way you speak. It changes the way you notice."</p>
+                </div>
+                <div class="quote-card-item">
+                    <p>"Every page begins as an idea before it becomes a story."</p>
+                </div>
+                <div class="quote-card-item">
+                    <p>"Achievement is not a finished identity. It is evidence of what I chose to work toward."</p>
+                </div>
+                <div class="quote-card-item">
+                    <p>"The work matters because it records the person I am becoming."</p>
+                </div>
+                <div class="quote-card-item">
+                    <p>"Public speaking is the art of giving structure to conviction."</p>
+                </div>
+                <div class="quote-card-item">
+                    <p>"A book is an architecture built out of quiet and intention."</p>
+                </div>
+                <div class="quote-card-item">
+                    <p>"Design gives shape to ideas that words alone cannot hold."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorship Section -->
+    <section class="section-padding bg-black">
+        <div class="container text-center">
+            <span class="section-label-gold">ACADEMIC GUIDANCE</span>
+            <h2 class="section-title">MENTORSHIP & ACKNOWLEDGMENT</h2>
+            <div class="gold-line center"></div>
+            <p class="editorial-paragraph max-800 center">Academic and creative growth thrives under dedicated guidance. Appreciation is extended to English educator Gladiola Toska for continuous academic encouragement, language guidance, and support in developing confidence in writing and communication.</p>
+        </div>
+    </section>
+
+    <!-- Compact CV Section -->
+    <section class="section-padding bg-darker">
+        <div class="container">
+            <div class="cv-summary-card">
+                <div class="grid grid-2 align-center">
+                    <div>
+                        <span class="section-label-gold">PORTFOLIO SUMMARY</span>
+                        <h2>CURRICULUM VITAE</h2>
+                        <p>Ninth-grade student, Bronze medalist in public speaking, Lead Magazine Editor, and fiction writer based in Tirana, Albania[cite: 1, 2, 3].</p>
+                    </div>
+                    <div class="text-right cv-btn-container">
+                        <a href="#contact" class="btn btn-gold">REQUEST FULL CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-black">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label-gold">GET IN TOUCH</span>
+                <h2 class="section-title">CONTACT MARJON</h2>
+                <div class="gold-line center"></div>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="contact-info">
+                    <h3>CORRESPONDENCE</h3>
+                    <p class="editorial-paragraph">Open for academic inquiries, literary discussion, public speaking collaborations, and creative projects.</p>
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-envelope gold-icon"></i> <strong>Email:</strong> <a href="mailto:mustamarjon0@gmail.com">mustamarjon0@gmail.com</a>[cite: 2]</li>
+                        <li><i class="fa-solid fa-link gold-icon"></i> <strong>Linktree:</strong> <a href="https://linktr.ee/marjonmusta" target="_blank" rel="noopener">linktr.ee/marjonmusta</a>[cite: 2]</li>
+                        <li><i class="fa-solid fa-location-dot gold-icon"></i> <strong>Location:</strong> Tirana, Albania[cite: 2]</li>
+                    </ul>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" required placeholder="Your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" required placeholder="Your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">MESSAGE</label>
+                            <textarea id="message" rows="4" required placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-gold full-width">SEND MESSAGE</button>
+                        <p id="form-status" class="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container text-center">
+            <a href="#home" class="brand-logo">M<span>.</span>MUSTA</a>
+            <p class="footer-sub">Student • Writer • Author • Editor • Digital Designer[cite: 2]</p>
+            <p class="footer-copy">&copy; 2026 Marjon Musta. All rights reserved. Built and published with GitHub Pages[cite: 2].</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Modals -->
+    <div id="modal-blackwood" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <span class="section-label-gold">DEEP-DIVE NOVEL OVERVIEW</span>
+            <h2>The Hearth Beneath Blackwood</h2>
+            <div class="gold-line"></div>
+            <div class="modal-body-scroll">
+                <h4>THE STORY</h4>
+                <p>Focusing on Vance Manor in Blackwood Hollow, Massachusetts, the novel tells a story of ancestral obligation, isolation, and domestic horror.</p>
+                <h4>THE SETTING</h4>
+                <p>Vance Manor stands as an active participant—its corridors, hearths, and wood framing holding the weight of centuries.</p>
+                <h4>THE ATMOSPHERE</h4>
+                <p>Heavy October air, falling ash, black oak, lingering hearth-smoke, and quiet dread.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-cert" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <span class="section-label-gold">DOCUMENT VERIFICATION</span>
+            <h2 id="cert-title">Certificate Verification</h2>
+            <div class="gold-line"></div>
+            <div id="cert-body" class="modal-body-scroll">
+                <p id="cert-desc"></p>
+                <div class="verification-badge"><i class="fa-solid fa-certificate"></i> VERIFIED DOCUMENT ARCHIVE[cite: 1, 2]</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-detail" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <span class="section-label-gold">PROJECT OVERVIEW</span>
+            <h2 id="detail-title">Project Title</h2>
+            <div class="gold-line"></div>
+            <p id="detail-body" class="editorial-paragraph"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
